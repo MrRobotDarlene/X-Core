@@ -24,6 +24,22 @@ git clone https://github.com/internxt/x-core && cd x-core
 npm install
 ```
 
+After install run app-install and electron rebuild
+
+```bash
+npm run app-install
+```
+
+For Windows run 
+```bash
+.\node_modules\.bin\electron-rebuild.cmd
+``` 
+
+MacOS/Linux run 
+```bash
+./node_modules/.bin/electron-rebuild`
+```
+
 Then you can start the application.
 
 ```bash
